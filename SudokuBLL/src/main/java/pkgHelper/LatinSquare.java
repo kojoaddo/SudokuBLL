@@ -112,7 +112,26 @@ public class LatinSquare {
 
 	public boolean isLatinSquare()
 	{
-		boolean isLatinSquare = false;		
+		boolean isLatinSquare = true;
+		for (int i = 0; i < LatinSquare.length; i++) {
+			if(hasDuplicates(getRow(i)))
+				return false;
+		}
+		for (int j = 0; j < LatinSquare.length; j++) {
+			if(hasDuplicates(getColumn(j)))
+				return false;
+		}
+		for (int i = 1; i < LatinSquare.length; i++) {
+			if
+				return false;	
+			}
+		}
+		for (int j = 1; j < LatinSquare.length; i++) {
+			if
+			{
+				return false;
+			}
+		}
 		return isLatinSquare;
 	}
 	
